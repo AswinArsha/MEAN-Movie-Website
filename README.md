@@ -17,7 +17,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/mean-movie-website.git
+   git clone https://github.com/AswinArsha/MEAN-Movie-Website.git
    ```
 
 2. Change to the project directory:
@@ -34,11 +34,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Configuration
 
-1. Create a `.env` file in the project root and add your MongoDB connection string. Example:
+1. In the project root APP_SERVER/models/db.js add the MongoDB connection string. Example:
 
    ```
-   MONGODB_URI=mongodb+srv://username:password@your-cluster.mongodb.net/your-database
-   PORT=3000
+   MONGODB_URI=mongodb+srv://aswinmv13:jw1sGbdxa5uvLF8w@cluster0.vnfuqnw.mongodb.net/?retryWrites=true
    ```
 
 2. Save the file.
@@ -60,15 +59,12 @@ The server will run on `http://localhost:3000`.
 - Angular - Frontend framework
 - Node.js - Server runtime
 
-## Authors
-
-- Your Name
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-Replace `"https://github.com/your-username/mean-movie-website.git"` with the actual URL of your GitHub repository.
+Replace `"https://github.com/AswinArsha/MEAN-Movie-Website.git"` with the actual URL of your GitHub repository.
 
 Feel free to customize the sections based on your project details. If you have additional information or specific instructions, include them in the appropriate sections.
