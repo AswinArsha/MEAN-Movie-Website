@@ -37,7 +37,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. In the project root APP_SERVER/models/db.js add the MongoDB connection string. Example:
 
    ```
-   MONGODB_URI=mongodb+srv://aswinmv13:jw1sGbdxa5uvLF8w@cluster0.vnfuqnw.mongodb.net/?retryWrites=true
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.vnfuqnw.mongodb.net/?retryWrites=true
    ```
 
 2. Save the file.
