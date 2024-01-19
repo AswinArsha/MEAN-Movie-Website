@@ -1,0 +1,18 @@
+
+mixin formatDate(dateString)
+  - const date = new Date(dateString);
+  - const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  - const d = date.getDate();
+  - const m = monthNames[date.getMonth()];
+  - const y = date.getFullYear();
+  - const output = `${y} ${m} ${d}`;
+  =output
+
+//- mixin formatDate1(dateString)
+//-   - const date = new Date(dateString);
+//-   - const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+//-   - const d = date.getDate();
+//-   - const m = monthNames[date.getMonth()];
+//-   - const y = date.getFullYear();
+//-   - const output = `${d} ${m} ${y}`;
+//-   =output

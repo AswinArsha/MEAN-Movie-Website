@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1= title
+
+  .row
+    .col-12.col-md-8
+      form#doAddNewMovie(action="", method="post", role="form")
+        .form-group.row
+          label.col-10.col-sm-2.col-form-label(for="name") Name
+          .col-12.col-sm-10
+            input#name.form-control(name="name")
+        .form-group.row
+          label.col-10.col-sm-2.col-form-label(for="rating") Rating
+          .col-12.col-sm-2
+            select#rating.form-control.input-sm(name="rating")
+              option 10
+              option 9
+              option 8
+              option 7
+              option 6
+              option 5
+              option 4
+              option 3
+              option 2
+              option 1
+        .form-group.row
+          label.col-10.col-sm-2.col-form-label(for="releasedate") Releasedate
+          .col-12.col-sm-10
+            input#releasedate.form-control(name="releasedate")
+        .form-group.row
+          label.col-10.col-sm-2.col-form-label(for="genres") Genres
+          .col-12.col-sm-10
+            input#genres.form-control(name="genres")
+        .form-group.row
+          label.col-10.col-sm-2.col-form-label(for="cast") Cast
+          .col-12.col-sm-10
+            input#cast.form-control(name="cast")
+        button.btn.btn-primary.float-right Submit
+    .col-12.col-md-4
+
+
+

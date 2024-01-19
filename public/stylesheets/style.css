@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Oleo+Script:wght@700&display=swap');
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fba4bf; 
+  
+}
+
+.navbar{
+  background-color: gold;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Oleo Script', cursive;
+ 
+}
+
+.navbar-light .navbar-brand{
+  font-size: 1.5rem;
+  color: #3e2d65;
+}
+
+
+img{
+  margin-bottom: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Oleo Script', cursive;
+  color: black;
+  font-size: 1.25rem;
+  
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+
+.content{
+  padding-top: 20px;
+}
+
+ul,li,p{
+  font-size: 20px;
+
+}
+
+footer,small{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+span{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Oleo Script', cursive;
+  color: #3e2d65;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.card-header{
+  background-color: #ffeeba;
+  
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+ul,li{
+  font-size: 16px;
+}
+
+.list-group-item-warning {
+  color: black;
+  background-color: #ffeeba;
+  font-size: 18px;
+}
+
+.btn{
+  margin-top: 16px;
+}

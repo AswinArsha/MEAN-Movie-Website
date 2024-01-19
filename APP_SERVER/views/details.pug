@@ -1,0 +1,33 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  h1 Movie Information
+  h2 #{currentMovie.name}
+  p Rating - #{currentMovie.rating} &#11088;
+  p Release Date - 
+    +formatDate(currentMovie.releasedate)
+  p Genres - #{currentMovie.genres}
+  p Cast - #{currentMovie.cast}
+    .card(style='width: 40rem;')
+      .card-header
+          | Reviews
+          each rev in currentMovie.reviews
+            ul.list-group.list-group-flush
+              p 
+              li.list-group-item Author: #{rev.author}
+              li.list-group-item Rating: #{rev.rating}
+              li.list-group-item Review Text: #{rev.reviewText}
+              li.list-group-item Created On: 
+                +formatDate(rev.createdOn)
+    p
+    a.btn.btn-dark(href=`/movies/${currentMovie._id}/review/new`) Add Review
+     
+        
+    
+
+
+    
+    
+      
+       
