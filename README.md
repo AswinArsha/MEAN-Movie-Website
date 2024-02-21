@@ -60,11 +60,3 @@ The server will run on `http://localhost:3000`.
 - Node.js - Server runtime
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Replace `"https://github.com/AswinArsha/MEAN-Movie-Website.git"` with the actual URL of your GitHub repository.
-
-Feel free to customize the sections based on your project details. If you have additional information or specific instructions, include them in the appropriate sections.
